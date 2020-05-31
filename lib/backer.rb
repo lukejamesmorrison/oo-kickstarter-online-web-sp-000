@@ -13,7 +13,7 @@ class Backer
     if(!project.backers.include?(project))
       project.backers << self
     end
-    
+
   end
 
 end
