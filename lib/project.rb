@@ -1,9 +1,8 @@
 class Project
 
-  @backers = []
-
-  def initialize()
-    #
+  def initialize(title)
+    @title = title
+    @backers = []
   end
 
 end
